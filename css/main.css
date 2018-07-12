@@ -1,0 +1,78 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 450px; }
+
+.fa {
+  font-size: 55px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/autumn-colorful-colourful-33109.jpg") no-repeat;
+  background-attachment: fixed;
+  text-align: center; }
+  #home-heading .dark-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/fly.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  text-align: center; }
+  #video-play .video {
+    background: none;
+    border: none; }
+  #video-play a {
+    color: #fff; }
+
+iframe {
+  width: 100%; }
+
+footer#main-footer {
+  background: #000;
+  color: #fff; }
+
+#page-header {
+  height: 200px;
+  background: url("../img/fly.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px; }
+
+#about img {
+  margin-top: -50px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+#faq .card-body, #faq .card-header {
+  background: #333; }
+
+@media (max-width: 992px) {
+  #about img {
+    margin-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */
